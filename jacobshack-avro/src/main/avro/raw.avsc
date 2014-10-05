@@ -1,0 +1,11 @@
+{"namespace": "jacobshack.avro",
+ "type": "record",
+ "name": "CmxLogEntry",
+ "fields": [
+     {"name": "network_id", "type": "int"},
+     {"name": "ap_mac", "type": "long"},
+     {"name": "client_mac", "type": "long"},
+     {"name": "rssi", "type": "int"},
+     {"name": "timestamp", "type": "long"}
+ ]
+}
